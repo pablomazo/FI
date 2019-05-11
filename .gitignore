@@ -1,3 +1,4 @@
 fort.*
 *.dat
 *.out
+*.o
