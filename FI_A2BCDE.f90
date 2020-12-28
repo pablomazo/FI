@@ -1,6 +1,6 @@
 subroutine fi_a2bcde(x, G)
 implicit none
-! Atoms: A A A B B C
+! Atoms: A A B C D E
 ! x: input
 ! G: fundamental invariant
 real(8), dimension(15), intent(in) :: x
