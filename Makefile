@@ -10,7 +10,7 @@ lib: $(OBJECTS)
 	ar cvr  $(LIBNAME) $^
 
 clean:
-	rm -f *.a *.mod *.out
+	rm -f *.a *.mod *.out *.o
 
 %.o: %.f90
 	$(FC) $(FFLAGS) -c $< -o $@
